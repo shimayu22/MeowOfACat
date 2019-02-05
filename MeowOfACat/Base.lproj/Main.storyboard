@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,68 +17,71 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pR6-pP-AeL" userLabel="Button1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pR6-pP-AeL" userLabel="Button1">
                                 <rect key="frame" x="16" y="58" width="150" height="150"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="56t-cL-noj"/>
                                     <constraint firstAttribute="height" constant="150" id="bMg-fT-zWU"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="IMG_5880.jpg"/>
                                 <connections>
                                     <action selector="button1WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNG-ai-gzN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPe-fO-0Mu" userLabel="Button2">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPe-fO-0Mu" userLabel="Button2">
                                 <rect key="frame" x="209" y="58" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="hqJ-e2-LtA"/>
                                     <constraint firstAttribute="height" constant="150" id="oSZ-X6-0Mz"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="IMG_5933.jpg"/>
                                 <connections>
                                     <action selector="button2WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w7X-Ax-eWh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o55-dC-wTL" userLabel="Button3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o55-dC-wTL" userLabel="Button3">
                                 <rect key="frame" x="16" y="258.5" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="VfK-mi-NKQ"/>
                                     <constraint firstAttribute="height" constant="150" id="liy-X7-Y15"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="IMG_5969.jpg"/>
                                 <connections>
                                     <action selector="button3WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kJL-4M-C0R"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWl-24-lkP" userLabel="Button4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWl-24-lkP" userLabel="Button4">
                                 <rect key="frame" x="209" y="258.5" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="JsH-fH-7kv"/>
                                     <constraint firstAttribute="width" constant="150" id="mv9-xT-pdY"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="IMG_5988.jpg"/>
                                 <connections>
                                     <action selector="button4WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T3Y-KW-g5Y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXg-fT-hmI" userLabel="Button5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXg-fT-hmI" userLabel="Button5">
                                 <rect key="frame" x="16" y="458" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="4by-R0-AAe"/>
                                     <constraint firstAttribute="height" constant="150" id="CNL-2h-pj0"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="IMG_6025.jpg"/>
                                 <connections>
                                     <action selector="button5WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TTZ-LI-M2J"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8n9-Wi-TET" userLabel="Button6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8n9-Wi-TET" userLabel="Button6">
                                 <rect key="frame" x="209" y="458" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="FjN-Io-H7g"/>
                                     <constraint firstAttribute="height" constant="150" id="v4V-Mh-wXt"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="IMG_6087.jpg"/>
                                 <connections>
                                     <action selector="button6WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dg2-Lo-zCO"/>
                                 </connections>
@@ -119,4 +121,12 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMG_5880.jpg" width="2048" height="2048"/>
+        <image name="IMG_5933.jpg" width="3024" height="3024"/>
+        <image name="IMG_5969.jpg" width="3024" height="3024"/>
+        <image name="IMG_5988.jpg" width="3024" height="3024"/>
+        <image name="IMG_6025.jpg" width="3024" height="3024"/>
+        <image name="IMG_6087.jpg" width="3024" height="3024"/>
+    </resources>
 </document>
